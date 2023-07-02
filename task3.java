@@ -23,19 +23,19 @@ public class task3 {
     
 
     switch (op) {
-      case "+": res = num1 + num2;
+      case '+': res = num1 + num2;
         break;
-      case "-": res = num1 - num2;
+      case '-': res = num1 - num2;
         break;
-      case "*": res = num1*num2;
+      case '*': res = num1*num2;
         break;
-      case "/": res = num1/num2;
+      case '/': res = num1/num2;
         break;
       default: System.out.println("Incorrect operator!");
         return;
     } 
 
-    System.out.println("Result: " + num1 + " " + op + " " + num2 + " " + "=" + " " + "res");
+    System.out.println("Result: " + num1 + " " + op + " " + num2 + " " + "=" + " " + res);
     scanner.close();
   }
 }
